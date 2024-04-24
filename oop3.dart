@@ -141,7 +141,9 @@ void main() {
   Bird donaldduck = Bird.fromFile(filePath);
   print('name: ${donaldduck.name}');
   print('location: ${donaldduck.location}');
- 
+
+
+  // A method that demonstrates the use of a loop
   for (var char in donaldduck.name.split('')) {
     print(char);
   }
